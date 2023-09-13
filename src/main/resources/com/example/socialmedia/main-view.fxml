@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.socialmedia.view.MainView">
+ <center>
+     <SplitPane dividerPositions="0.5" layoutX="250.0" layoutY="38.0" orientation="VERTICAL" prefHeight="250.0" prefWidth="250.0">
+         <fx:include fx:id="login" source="login-view.fxml"/>
+ 
+
+     </SplitPane>
+ </center>
+</BorderPane>
